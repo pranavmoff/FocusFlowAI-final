@@ -9,7 +9,7 @@
 //      domain. This prevents reset / verification emails from sending
 //      users back to id-preview--*.lovable.app after the project is
 //      deployed standalone.
-const PRODUCTION_SITE_URL = "https://focus-flow-ai-70.vercel.app";
+const PRODUCTION_SITE_URL = "https://focus-flow-ai-final.vercel.app/";
 
 const ENV_SITE_URL =
   (import.meta.env.VITE_SITE_URL as string | undefined)?.replace(/\/$/, "") || "";
