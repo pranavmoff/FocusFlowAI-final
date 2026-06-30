@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "kb update" ON public.activity_knowledge_base;

@@ -1,0 +1,1 @@
+ALTER TABLE public.tasks ADD COLUMN IF NOT EXISTS estimated_minutes int CHECK (estimated_minutes IS NULL OR (estimated_minutes >= 0 AND estimated_minutes <= 1440));
